@@ -1,0 +1,50 @@
+09/09/24
+Introduction of Web
+History of Internet
+Understanding of HTML
+Basic Structure of HTML Web Page
+
+13/09/24
+Basic Elements in HTML
+Heading 
+Paragraph
+Link
+Image
+Break and Horizontal
+Text Formatting Elements
+
+16/09/24 - Holiday
+
+20/09/24
+List 
+Table
+
+23/09/24
+Table Assignment
+
+27/09/24
+Meta Tag, HTML Entities, Frameset
+
+30/09/24
+Frameset Assignment, Form and Form Assignment
+
+04/10/24
+Quiz and Assessment
+7/10/24
+Git Hub
+8/10/24
+Git hub
+14/10/24
+Github, training form submittion, 
+
+18/10/24
+progress, audio , vidoe, iframe and css
+
+21/10/24(11:30-12:20)
+CSS-Cursor, Scrollbar(ovrflow), opacity, Selectors (simple, combinators, psudo elements and class); 
+
+
+
+
+
+
