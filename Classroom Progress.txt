@@ -38,10 +38,7 @@ Git hub
 Github, training form submittion, 
 
 18/10/24
-progress, audio , vidoe, iframe and css
-
-21/10/24(11:30-12:20)
-CSS-Cursor, Scrollbar(ovrflow), opacity, Selectors (simple, combinators, psudo elements and class); 
+progress, audio , video, iframe and css
 
 
 

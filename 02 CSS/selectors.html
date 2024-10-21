@@ -21,7 +21,19 @@
         /* div p{ color: aqua;} */
         /* div>p{ color: brown;} */
         /* div+p{color: blue;} */
-        div~p{ color: blueviolet;}
+        /* div~p{ color: blueviolet;} */
+
+        /* psedue class */
+        a:hover{ color: aqua;}
+        a:visited{ color: red;}
+        a:active{ color: blue;}
+        /* div:nth-child(3){ background-color: bisque;} */
+
+        /* psedue elements */
+        p::first-letter{ font-size: larger; color: red;}
+        p::after{ content: 'read more!'; color: blueviolet;} 
+        p::first-line{ text-decoration: underline; text-transform: uppercase;}
+
     </style>
 </head>
 
@@ -34,11 +46,12 @@
     Pseudo Class - change state of the element
     Pseduo Elements - modify the style of the element -->
     <h1>Selectors in CSS</h1>
+    <a href="">Click on me to see selector</a>
     <div>
-        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident, soluta incidunt labore
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident, soluta incidunt labore
             praesentium porro architecto non. Quasi quia magnam cumque non ad. Aliquam dignissimos consequuntur
             perferendis, eveniet nostrum tempora!</p>
-        <p id="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere autem officia placeat impedit quam harum at?
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere autem officia placeat impedit quam harum at?
             Libero provident autem reprehenderit temporibus atque quisquam minima inventore sit. Qui ut temporibus
             eaque.</p>
         <p>
