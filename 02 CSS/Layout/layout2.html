@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout 2 | HTML CSS</title>
+    <style>
+        *{ margin: 0; padding: 0; box-sizing: border-box;}
+        main{
+            width: 1200px;
+            height: auto;
+            background-color: antiquewhite;
+            margin: 0 auto;
+        }
+        #logo{
+            width: 100%;
+            height: 100px;
+            background-color: #999;
+            align-content: center;
+            text-align: center;
+        }
+        #container{
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+
+        #container div{
+           width:280px; 
+           height: 250px;
+            background-color: #999;
+        }
+
+        #box{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap:5px;
+            margin: 5px 0;
+        }
+        .boxes{
+            flex-grow: 1;
+            background-color: #999;
+            align-content: center;
+            text-align: center;
+        }
+
+        footer{
+            width: 100%;
+            height: 150px;
+            background-color: #999;
+            text-align: center;
+            align-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main><!--main start-->
+        <div id="logo"><h2>Logo</h2></div>
+
+        <div id="container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div><!--container end-->
+
+        <div id="box">
+            <div class="boxes"><h2>Box1</h2></div>
+            <div class="boxes"><h2>Box2</h2></div>
+            <div class="boxes"><h2>Box3</h2></div>
+        </div>
+
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+
+    </main><!--main end-->
+</body>
+</html>
