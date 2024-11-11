@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout 03</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 400px 600px 80px;
+            gap: 10px;
+        }
+        #logo, footer{
+            background-color: #CCC;
+        }
+
+        #logo{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:10px;
+        }
+        .box{
+            background-color: aliceblue;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap:10px
+        }
+        #left{
+            background-color: #CCC;
+        }
+        #right{
+            display: grid;
+            grid-template-rows: 1fr 3fr;
+            gap:10px;
+        }
+        header,article{
+            background-color: #CCC;
+        }
+      
+
+    </style>
+</head>
+<body>
+    <main><!--main start-->
+        <div id="logo">
+            <div class="box"><h2>Box1</h2></div>
+            <div class="box"><h2>Box2</h2></div>
+            <div class="box"><h2>Box3</h2></div>
+        </div>
+
+        <section>
+            <div id="left"><h2>Side bar Navigation</h2></div>
+
+            <div id="right">
+               <header><h2>Header/Banner</h2></header>
+               <article><h2>Body Area</h2></article>
+            </div>
+        </section>
+
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+
+
+    </main><!--main end-->
+</body>
+</html>
