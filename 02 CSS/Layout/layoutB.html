@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <style>
+        *{
+            margin: 0;
+             padding:0;
+             box-sizing: border-box;
+        }
+        main{
+            width:1200px;
+            height:auto;
+            margin: 0 auto;
+        }
+        #logo{
+            width:100%;
+            height: 100px;
+            background-color: red;
+        }
+
+        section{
+            width: 1200px;
+            height: 600px;
+            margin: 10px 0;
+            display: flex;
+            flex-direction: row;
+            gap:10px
+        }
+        #left{
+         width: 400px;
+         height: 100%;
+         background-color: #f00707;
+        }
+        #right{
+            width:800px;
+            height: 100%;
+            display:flex;
+            flex-direction: column;
+            gap:10px;
+        }
+
+        #r_top{
+            width: 100%;
+            height: 200px;
+            background-color: #f00707;
+        }
+
+        #r_btm{
+            width: 100%;
+            height: 400px;
+            background-color:#f00707;
+        }
+        footer{
+            width: 100%;
+            height: 80px;
+            background-color: red;
+        }
+
+        #box{
+            width: 1200px;
+            height: 300px;
+            background-color: black;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content:space-between;
+            gap:10px;
+
+        }
+        .boxes{
+            /* flex-grow: 1; */
+            width: 280px;
+            align-content: center;
+            text-align: center;
+            background-color: #f00707;
+        }
+
+    </style>
+</head>
+<body>
+    <main><!--main start-->
+     <div id="logo"><h2>Logo</h2></div>
+
+     <section>
+        <div id="left"><h2>Left</h2></div>
+        <div id="right">
+            <div id="r_top"><h2>Banner</h2></div>
+            <div id="r_btm"><h2>Body Area</h2></div>
+        </div>
+     </section>
+
+     <div id="box">
+        <div class="boxes"><h2>Box1</h2></div>
+        <div class="boxes"><h2>Box2</h2></div>
+        <div class="boxes"><h2>Box3</h2></div>
+        <div class="boxes"><h2>Box4</h2></div>
+     </div>
+
+     <footer>
+        <h2>Footer</h2>
+     </footer>
+
+    </main><!--main end-->
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: #999;
+        }
+        div:hover{
+            /* transform: skew(40deg); */
+            /* transform: scale(2); */
+    
+            transform: rotate(9 0deg);
+    
+            transition: 3s;
+        }
+    
+     
+    
+    /* The element to apply the animation to */
+    h1 {
+      width: 500px;
+      height: 100px;
+      background-color: red;
+      animation-name: controlText;
+      animation-duration: 4s;
+    
+    }
+    
+    @keyframes controlText{
+        from{
+            transform: translate(0px, 0px);
+            scale: .5;
+            /* rotate: 0deg; */
+        }
+        to{
+            transform: translate(100px, 500px);
+            scale: 1.4;
+            /* rotate: 30deg; */
+        }
+      </style>
+</head>
+<body>
+    <div>
+        
+    </div>
+    <h1>Welcome on my page!</h1>
+</body>
+</html>

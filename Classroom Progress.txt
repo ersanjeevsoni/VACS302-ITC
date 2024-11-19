@@ -40,6 +40,18 @@ Github, training form submittion,
 18/10/24
 progress, audio , video, iframe and css
 
+21/10/24
+CSS bkg, text, font, selectors
+
+4/11/24
+CSS Flex Layout
+
+11/11/24
+CSS Grid Layout
+
+19/11/24
+position transform, transition and animation
+
 
 
 
