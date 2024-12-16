@@ -55,6 +55,13 @@ position transform, transition and animation
 2/12/24
 Bootstrap
 
+9/12/24
+JS Introduction
+var / let/const
+13/12/24
+data types - primitive and object
+
+
 
 
 

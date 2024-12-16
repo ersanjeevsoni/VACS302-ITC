@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Var</title>
+</head>
+<body>
+    <script>
+        //primitive data  value types
+       /*  let name="Abahay";
+        console.log(typeof(name));
+
+        let mob=23532465;
+        console.log(typeof(mob));
+
+        let isMarried=false;
+        console.log(typeof(isMarried));
+
+        let city=null;
+        console.log(typeof(city));
+
+        let pincode;
+        console.log(typeof(pincode));  */
+       // reference type
+       
+       //oject:- collection of its name and value
+
+      /*  let my_info={
+        name:"Nikhil", 
+        age:30, 
+        mob:983634545, 
+        add:"Delhi", 
+        isMarried:false, 
+        pincode: null
+       }
+       console.log(my_info.name); // access object name using dot notation
+       console.log(my_info.mob + " and  address is " + my_info.add);
+       console.log(my_info['mob']); // access object keys value using bracket notation
+        */
+
+        // function : block of code, which generates the output once calls on invokes
+ 
+
+/*         let msg=function(){
+            console.log("thanks to visit us");
+            console.log(typeof(msg));       
+        }
+        msg(); */
+
+        //array: collection of anything
+
+       /*  let student=[
+            "Prince", 
+            30, 
+            99876578578, 
+            "p234@gmail.com", 
+            false, 
+            "Delhi", 
+            110093];
+            console.log(student[2]);
+             */
+       // creating object having all data types value
+       
+       let student={
+          name:["makhan", "prince", "uday", "tarzoin","xyz"],
+          age:30,
+          course:"web",
+          add:{
+            area:"Nehru Place",
+            city:"Delhi",
+            pincode:110093
+          },
+          getinfo:function(){
+             return this.name[1] + " and his ags is " +  this.age
+          },
+          isMarried:false
+       };
+
+       console.log(student.getinfo()); //object with function
+       console.log(student.name[2]); // object with array
+       console.log(student.add.city); // object with object
+       
+       
+        
+        
+    </script>
+</body>
+</html>
