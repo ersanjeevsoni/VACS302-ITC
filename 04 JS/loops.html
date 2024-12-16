@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in JS</title>
+</head>
+<body>
+    <script>
+    /*     let num=prompt("Enter the number");
+
+        for(let i=1; i<=10;i++){
+            document.write("table is " + num*i + "<br>");
+        } */
+
+        //let studentsName=["Abhay1","Saket1","Nitin","Vinay","Prince"];
+
+        // for(let i=0;i<studentsName.length; i++){
+        //  document.write(studentsName[i] + "<br>");
+        // }
+
+        //or using for--in loop in case of aaray
+       /*  let studentsName=["Abhay1","Saket1","Nitin1","Vinay1","Prince1"];
+
+        for(x in studentsName){
+            document.write(studentsName[x] + " <br> ")
+        } */
+
+        // for ---of 
+
+        let courseSubject=['COA','DA','DE','Math','Java'];
+        let courseDetails=" ";
+        for(x of courseSubject){
+            courseDetails+=x;
+            document.write( x + "<br>")
+    
+        }
+        // for--in in case of object
+
+        /* let myInfo={
+            fname:"vinay",
+            lName:"Singh",
+            age:23,
+            mob:9876534234,
+            eMail:"vsingh23@gmail.com",
+            isMarried:false
+        }
+      for (x in myInfo){
+        document.write(`${myInfo[x]} <br>`);
+      } */
+
+    //   fNmame=["Abhay","Saket","Nitin","Vinay","Prince"];
+    //   lName=["Singh","Pal","Kumar", "Jain", "Sain"]
+    </script>
+</body>
+</html>

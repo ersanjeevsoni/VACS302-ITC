@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Conditional Statement</title>
+</head>
+<body>
+    <script>
+       /*  var age=25; // static...
+        if(age>=18){
+            alert("you are eligible to cast the vote!")
+        } */
+
+        // if --else
+      /*   let checkAge=prompt("Enter your age!");
+
+        if(checkAge>=18){
+            document.write("You are eligible");
+        }
+
+        else{
+            document.write("wait for the next year");
+        } */
+        //if --else if--else----
+
+      /*   let yourGarde=prompt("Enter your percetange in number");
+
+        if(yourGarde>=35 && yourGarde<=40){
+            document.write("Grade C");
+        }
+        else if(yourGarde>=41 && yourGarde<79){
+            document.write("Grade B");
+        }
+        else if(yourGarde>=80){
+            document.write("Grade A")
+        }
+        else{
+            document.write("Fail!")
+        }
+*/
+        let studentsName=['abc','cde','edf','art','des'];
+ for(i in studentsName){
+    document.write(studentsName[i] + "<br>")
+ };
+ const person = {
+             fname:"Ajay", 
+             lname:"Singh", 
+             age:25
+           }; 
+for (let x in person) {
+    document.write(  x + ":" + person[x] + "<br>")
+}
+
+       /*  for(let i=0; i<studentsName.length;i++){
+            document.write(studentsName[i] + "<br>")
+        } */
+
+    </script>
+</body>
+</html>
