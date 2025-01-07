@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function in JS</title>
+</head>
+<body>
+    <script>
+     /*    function msg(){ // statement
+   alert("Hello JS");
+        }
+        msg(); */  // fn calling
+
+        // fn declaration for the above code
+
+        let msg1=function(){
+            console.log("Hello Js");
+        }
+        msg1();
+        // function with parameters
+
+        let add=function(a,b){
+            let c=a+b;
+            console.log(`additon of two number is ${c}`); 
+        }
+        add(4,7)
+
+
+        //function return
+
+        let mul=function(n1,n2){
+            mulResult=n1*n2;
+            return mulResult;
+        }
+        let result=mul(10,5);
+        console.log(result);
+
+        //arrow function(anonymous function)
+        let add1=function(a,b){
+            let c=a+b;
+            console.log(`additon of two number is ${c}`); 
+        }
+        add1(4,70)
+        
+        //above code for arrow function
+        let add2=(p,s)=>{
+        console.log(`additon of two number p and s is ${p+s}`); 
+    }
+        add2(3,6)
+    </script>
+</body>
+</html>

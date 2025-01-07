@@ -61,6 +61,17 @@ var / let/const
 13/12/24
 data types - primitive and object
 
+16/12/24
+object and access object
+20/12/24
+conditional statment
+26/12/24
+loops
+30/12/24
+operators
+
+
+
 
 
 

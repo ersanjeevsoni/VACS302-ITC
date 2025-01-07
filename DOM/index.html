@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="demo">.......</h1>
+    <h2 class="demo">''''</h2>
+    <p class="demo">yrtytr</p>
+
+    <h3 class="demo">etete</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae et vero repudiandae animi accusantium non veniam, provident soluta voluptatibus dignissimos deserunt corrupti eos ullam obcaecati praesentium inventore sequi. Debitis, consectetur!</p>
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+    <img src="#" alt="abes logo" title="" id="img"/>
+    <button onclick="msg()">click on me!</button>
+    <script>
+        function msg(){
+            //by id
+// document.getElementById("demo").innerHTML="Welcome to React";
+
+          // by classname
+        /*   let element=document.getElementsByClassName("demo");
+          for(x in element){
+          element[x].innerHTML="Thanks";
+          element[x].style.backgroundColor="red";
+        } */
+
+     // by tag name
+
+/*      let  element=document.getElementsByTagName("p");
+     element[1].style.color="green"; */
+
+     // by query selector
+
+/*      let element=document.querySelector("ul li:nth-child(3)");
+     element.style.color="blue";
+     element.innerHTML="Gallery"; */
+
+      // by query selectorall
+/*       let element=document.querySelectorAll("ul li");
+      element[1].style.color="red"; */
+     
+      //get attribute
+
+      let element=document.getElementById("img");
+     let result= element.getAttribute("alt");
+      document.getElementById("demo").innerText=result;
+ //set attibute
+   element.setAttribute("title","abes college");
+
+
+          
+}
+    </script>
+</body>
+</html>
