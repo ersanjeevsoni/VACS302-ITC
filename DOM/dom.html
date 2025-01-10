@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit quae illum aut similique fugiat blanditiis facilis assumenda in id culpa sunt quam saepe, voluptas maiores illo laborum esse quibusdam.</p>
+    <h1 id="demo">Welcome</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit quae illum aut similique fugiat blanditiis facilis assumenda in id culpa sunt quam saepe, voluptas maiores illo laborum esse quibusdam.</p>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit quae illum aut similique fugiat blanditiis facilis assumenda in id culpa sunt quam saepe, voluptas maiores illo laborum esse quibusdam.</p>
+    <img src="../02 CSS/images/bkg.png" alt="ABES Logo" style="border:2px solid #999">
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>services</li>
+        <li>gallery</li>
+        <li>contact</li>
+    </ul>
+    <script>
+        //  by id
+      let heading=document.getElementById("demo");
+
+      heading.innerHTML="Thanks";
+
+      heading.style.color="red";
+
+      // by class
+
+      let paraG=document.getElementsByClassName("para");
+      paraG[2].style.color="yellow";
+
+      //  by tagname
+      let imgTag=document.getElementsByTagName("img");
+      imgTag[0].style.borderColor="red";
+      imgTag[0].style.width="200px";
+
+      // update image attribute alt value
+
+      imgTag[0].setAttribute("title","bkg of image");
+      // by query selector
+
+      let list=document.querySelector("ul li:nth-child(2)");
+      list.style.color="blue";
+
+      //by query selector all
+
+      let list1=document.querySelectorAll("ul li");
+      list1[1].style.backgroundColor="red";
+
+
+   
+
+      
+
+
+
+
+    </script>
+</body>
+</html>

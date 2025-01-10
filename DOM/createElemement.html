@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create | Get Element</title>
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum dolore quaerat velit voluptate autem fuga id recusandae iusto vitae? Consequatur ullam eligendi perferendis ad amet earum at cumque temporibus qui.</p>
+
+    <img src="" alt="logo" id="img1"/>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facilis veniam, perspiciatis eum commodi quae esse. Facilis voluptatem tempore laudantium quidem ut possimus totam non deleniti voluptas. Nulla, dignissimos voluptate!</p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iure ea nam a eius laudantium natus sit molestiae blanditiis aspernatur, delectus distinctio qui vel perferendis labore sint ullam corrupti? Reiciendis.
+    </p>
+    <script>
+        // create element
+
+        const heading=document.createElement("h1");
+
+        // get element
+
+        const bodytag=document.getElementsByTagName("body");
+
+        //append heading in reference of body tag
+
+        bodytag[0].append(heading);
+
+        heading.innerText="heading h1 is created";
+        heading.style.color="red";
+
+        // create heading 2
+        const heading2=document.createElement("h2");
+        // get element
+        const para=document.getElementsByTagName("p");
+      //appned h2
+
+      para[1].append(heading2);
+      heading2.innerText="heading 2 created"; 
+
+      // get attribute and update value
+      let element=document.getElementById("img1");
+      let imgAttr=element.getAttribute("alt");
+      
+      // get will not update the current alt attribute value to so just print value
+      console.log(imgAttr);
+      
+
+    
+     // set attribute
+     element.setAttribute("alt","ABES Logo");
+      element.setAttribute("title", "ABES EC");
+
+
+    </script>
+</body>
+</html>

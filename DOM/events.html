@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Event</title>
+    <style>
+        #name {
+            border: 2px solid #999;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="h1">Hello JavaScript</h1>
+    <input type="text" name="" id="name" 
+    placeholder="Enter Name" />
+    <button  id="btn">Click on me!</button>
+    <script> 
+
+     /*    let clickEvent = function () {
+            let element = document.getElementById("h1");
+            element.style.color = "red";
+       
+            let inputElement = document.getElementById("name");
+            let inputValue=inputElement.value;
+            if(inputValue===null || inputValue.trim()===""){
+                inputElement.style.background = "blue";
+                inputElement.style.borderColor="#F04";
+            }
+            else{
+                inputElement.style.borderColor="";
+            }
+            
+        } */
+  
+
+        // addEventListener method in js
+
+        let inputElement=document.getElementById("btn");
+
+        inputElement.addEventListener("mouseover",mouseOver);
+        inputElement.addEventListener("mouseout",mouseOut);
+
+        function mouseOver(){
+            // let inputElement=document.getElementById("btn");
+            document.getElementById("btn").style.background="red";
+        }
+        function mouseOut(){
+            //  let inputElement=document.getElementById("btn");
+            document.getElementById("btn").style.background="blue";
+        }
+
+    </script>
+</body>
+
+</html>
